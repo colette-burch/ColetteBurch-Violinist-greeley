@@ -319,6 +319,7 @@ a:hover .social-icon {
 .contact-title {
   padding-left: 15%;
   padding-top: 7%;
+  font-size: 3rem;
 }
 
 .contact-text {
@@ -326,12 +327,14 @@ a:hover .social-icon {
   padding-top: 15px;
   padding-bottom: 5px;
   margin-bottom: 0;
+  font-size: 1.6rem;
 }
 
 .contact-em {
   padding-left: 20%;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  font-size: 1.4rem;
 }
 
 /* Slideshow Section */
