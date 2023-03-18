@@ -103,6 +103,10 @@ p {
   }
 }
 
+.socialicon-title-box {
+  padding-left: 5%;
+}
+
 a:hover .social-icon {
   color: #ffdccf;
 }
