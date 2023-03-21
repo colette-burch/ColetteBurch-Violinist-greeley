@@ -186,17 +186,20 @@ a:hover .social-icon {
   margin-top: 80px;
 }
 
-.Up-box {
-  padding: 7% 7%;
-}
-
 .up-title {
   font-size: 2.5rem;
 }
 
-@media screen and (min-width: 1500px) {
+@media (max-width: 1570px) {
+  .stack-on-small {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .Up-slideshow {
-    width: 70%;
+    width: 100%;
     padding: 100px !important;
   }
 }
@@ -215,24 +218,51 @@ a:hover .social-icon {
 }
 
 .up-img {
-  width: 85%;
+  width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .up-img {
     width: 100% !important;
   }
 }
 
+@media (min-width: 1900px) {
+  .Up-quote-inner {
+    margin-top: 100px !important;
+  }
+}
+
+.Up-quote-outer {
+  text-align: center;
+  background-color: #C3D2E8;
+}
+
+.Up-quote-inner {
+  width: 100%;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.up-quote {
+  font-size: 1.6rem;
+  font-family: 'Abel', sans-serif;
+}
+
+.up-quote-person {
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+
 /* Teaching Section */
 .teaching-div {
-  margin-left: 50px;
-  padding-bottom: 30px;
+  margin-left: 100px;
+  padding-bottom: 100px;
 }
 
 .teaching-title {
   margin-left: 30px;
-  padding-top: 80px;
+  padding-top: 130px;
 }
 
 .violin-img {
@@ -251,6 +281,28 @@ a:hover .social-icon {
 .link-Lesson-Policy {
   margin-left: 50px;
   font-size: 1.4rem;
+}
+
+.teaching-quote-outer {
+  text-align: center;
+  background-color: #C3D2E8;
+}
+
+.teaching-quote-inner {
+  margin-left: 50px;
+  width: 80%;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.quote {
+  font-size: 1.6rem;
+  font-family: 'Abel', sans-serif;
+}
+
+.quote-person {
+  font-size: 1.6rem;
+  margin-top: 20px;
 }
 
 /* Videos section */
